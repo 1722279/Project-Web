@@ -1,0 +1,177 @@
+.header {
+    background-color: #282828;
+    height: 100px;
+}
+
+#heading1 {
+    color: #434343;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 28.0pt;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.heading2 {
+    color: #282828;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16.0pt;
+    margin: 0% 10%;
+}
+
+label {
+    color: #282828;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10.0pt;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 43px;
+    background-color: #FFFFFF;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DDDDDD;
+    color: #434343;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10.0pt;
+    border-radius: 5px 5px 5px 5px;
+}
+
+input[width="405px"] {
+    width: 405px;
+}
+
+div[class="inline"] {
+    margin-right: 5%;
+    margin-bottom: 25px;
+}
+
+#credentials div {
+    margin-bottom: 25px;
+}
+
+div[id="payment"] {
+    height: 600px;
+}
+
+input[width="292px"] {
+    width: 292px;
+}
+
+div[class="fieldset"] {
+    margin: 3% 10%;
+}
+
+.scrollPrompt {
+    margin-top: -2%;
+    margin-bottom: 2%;
+}
+
+div[id="paymentWrap"] {
+    height: 500px;
+}
+
+div[id="credentials"] {
+    width: 30%;
+    float: left;
+    margin: 3% 0%;
+    margin-left: 10%;
+}
+
+div[class="paymentSummary"] {
+    width: 317px;
+    height: 351px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F3F3F3;
+    float: right;
+    margin-right: 30px;
+}
+
+div[class="paymentSummary"] div[id="headerDiv"] {
+    height: 60px;
+    background-color: #F2F2F2;
+}
+
+div[class="paymentSummary"] div[id="headerDiv"] {
+    height: 60px;
+    background-color: #F2F2F2;
+    color: #B2B2B2;
+    text-align: left;
+    line-height: 60px;
+    font-size: 10.0pt;
+    font-family: 'Open Sans', cursive;
+    padding-left: 10px;
+}
+
+div[class="paymentSummary"] div[id="rateBox"] {
+    height: 100px;
+    color: #434343;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14.0pt;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+div[class="paymentSummary"] div[id="rateBox"] select {
+    width: 285px;
+    height: 52px;
+    color: #434343;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10.0pt;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 10px;
+    padding-left: 15px;
+    background: url("../images/arrowdownnocircle.svg") no-repeat right;
+    background-position-x: 250px;
+    -webkit-appearance: none;
+}
+
+div[class="paymentSummary"] div[class="feeBox"] {
+    height: 60px;
+    border-width: 1px 0px;
+    border-bottom-width: 0px;
+    border-color: #DDDDDD;
+    border-style: solid;
+}
+
+div[class="paymentSummary"] div[class="feeBox"] label {
+    line-height: 60px;
+    float: left;
+    padding-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10.0pt;
+    margin-bottom: 0px;
+}
+
+div[class="paymentSummary"] div[class="feeBox"] span {
+    line-height: 60px;
+    float: right;
+    padding-right: 15px;
+    color: #B2B2B2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10.0pt;
+}
+
+div[class="btnhold"] {
+    text-align: center;
+    margin-bottom: 30px;
+}

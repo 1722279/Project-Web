@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                       <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+                       <title>Group</title>
+                       <desc>Created with Sketch.</desc>
+                       <defs>
+                           <polygon id="s-Image_4-path-1" points="0 0 16.9998692 0 16.9998692 13 0 13" style="fill:#DDDDDD !important;"></polygon>
+                       </defs>
+                       <g id="s-Image_4-Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                           <g id="Feature-#1" transform="translate(-155.000000, -313.000000)">
+                               <g id="s-Image_4-Group" transform="translate(155.000000, 313.000000)">
+                                   <g id="s-Image_4-check" transform="translate(7.000000, 9.000000)">
+                                       <mask id="s-Image_4-mask-2" fill="white">
+                                           <use xlink:href="#s-Image_4-path-1" style="fill:#DDDDDD !important;"></use>
+                                       </mask>
+                                       <g id="s-Image_4-Clip-2"></g>
+                                       <path d="M0.196023077,7.15 C0.0652538462,7.02 -0.000130769231,6.825 -0.000130769231,6.695 C-0.000130769231,6.565 0.0652538462,6.37 0.196023077,6.24 L1.11140769,5.33 C1.37294615,5.07 1.76525385,5.07 2.02679231,5.33 L2.09217692,5.395 L5.68833077,9.23 C5.8191,9.36 6.01525385,9.36 6.14602308,9.23 L14.9075615,0.195 L14.9736,0.195 C15.2344846,-0.065 15.6274462,-0.065 15.8883308,0.195 L16.8037154,1.105 C17.0652538,1.365 17.0652538,1.755 16.8037154,2.015 L6.34217692,12.805 C6.21140769,12.935 6.08063846,13 5.88448462,13 C5.68833077,13 5.55756154,12.935 5.42679231,12.805 L0.326792308,7.345 L0.196023077,7.15 Z" id="s-Image_4-Fill-1" fill="#DDDDDD" mask="url(#s-Image_4-mask-2)" style="fill:#DDDDDD !important;"></path>
+                                   </g>
+                                   <path d="M27,15 C27,21.6 21.6,27 15,27 C8.37,27 3,21.6 3,15 C3,8.4 8.4,3 15,3 C21.6,3 27,8.4 27,15 L27,15 Z M30,15 C30,6.72 23.28,0 15,0 C6.72,0 0,6.72 0,15 C0,23.28 6.72,30 15,30 C23.28,30 30,23.28 30,15 L30,15 Z" id="s-Image_4-True-Stroked" fill="#DDDDDD" style="fill:#DDDDDD !important;"></path>
+                               </g>
+                           </g>
+                       </g>
+                   </svg>

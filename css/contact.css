@@ -1,0 +1,39 @@
+#heading1 {
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 28.0pt;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+#rect {
+    height: 442px;
+    background-color: #282828;
+    margin: 100px 0px;
+}
+
+#subtitle {
+    color: #B2B2B2;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    font-size: 11.0pt;
+    margin-bottom: 5px;
+}
+
+.imghold {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.para {
+    color: #B2B2B2;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Nova Flat', c;
+    font-size: 11.0pt;
+    margin-bottom: 10px;
+}

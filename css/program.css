@@ -1,0 +1,93 @@
+.header {
+    background-color: #282828;
+    height: 100px;
+}
+
+.mainRect[id="program"] {
+    height: 540px;
+    background-color: #FFFFFF;
+}
+
+.mainRect span[id="program"] {
+    color: #434343;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38.0pt;
+    padding-top: 150px;
+    margin-bottom: 20px;
+}
+
+.mainRect span[id="venue"] {
+    color: #B2B2B2;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14.0pt;
+    margin-bottom: 50px;
+}
+
+.mainRect .btn {
+    height: 43px;
+    width: 160px;
+    background-color: #282828;
+}
+
+div[class="pageindic"] {
+    width: 10px;
+    height: 10px;
+    float: left;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+div[id="pageindichold"] {
+    margin-top: 240px;
+    margin-left: 35px;
+    width: 11px;
+    height: 540px;
+    float: left;
+}
+
+div[class="scrollablecards"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div[id="background"] {
+    background-color: #CBCBCB;
+    height: 471px;
+    width: 929px;
+    position: absolute;
+    z-index: -1;
+}
+
+#lcard,
+#rcard {
+    width: 303px;
+    height: 512px;
+    background-color: #F2F2F2;
+    z-index: 1;
+}
+
+#mcard {
+    height: 563px;
+    width: 319px;
+    margin-left: -50px;
+    margin-right: -50px;
+    z-index: 2;
+}
+
+#leftarr {
+    margin-right: 70px;
+}
+
+#rightarr {
+    margin-left: 70px;
+    transform: rotate(180deg);
+}
+
+#btnhold {
+    text-align: center;
+}

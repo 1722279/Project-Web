@@ -1,0 +1,89 @@
+div[class="heading"] {
+    color: #434343;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36.0pt;
+    margin-top: 60px;
+}
+
+div[id="subtitle"] {
+    width: 100%;
+    margin: 5px;
+}
+
+div[id="subtitle"] span {
+    color: #B2B2B2;
+    width: 380px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16.0pt;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.wrap[id="first"] {
+    width: 1080px;
+    text-align: center;
+}
+
+.wrap[id="second"] {
+    width: 820px;
+    text-align: center;
+}
+
+div[class="guidelineblock"] {
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px 70px;
+}
+
+div[class="guidelineblock"] img {
+    margin: 20px 0px;
+}
+
+.paragraph {
+    color: #B2B2B2;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    ;
+    font-size: 12.0pt;
+    width: 170px;
+}
+
+div[id="solo"] {
+    width: 800px;
+    margin: 10px auto 40px auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+table {
+    border-spacing: 0px;
+    margin: 10 auto;
+}
+
+td[class="head"] {
+    width: 243px;
+    height: 60px;
+    background-color: #F2F2F2;
+    color: #282828;
+    border-bottom-width: 0;
+}
+
+td {
+    width: 243px;
+    height: 60px;
+    background-color: transparent;
+    background-image: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #DDDDDD;
+    font-family: 'Righteous', cursive;
+    font-size: 11.0pt;
+    text-align: center;
+    color: #B2B2B2;
+}
