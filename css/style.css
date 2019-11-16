@@ -87,6 +87,10 @@ div[class="dropdownlist"] a {
     display: block;
 }
 
+div[id="banner"]{
+    position: absolute;
+}
+
 .header a {
     text-decoration: none;
     color: #DDDDDD;

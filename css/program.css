@@ -9,7 +9,7 @@
 }
 
 .mainRect span[id="program"] {
-    color: #434343;
+    color: #f5f3f3;
     text-align: center;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
@@ -19,7 +19,7 @@
 }
 
 .mainRect span[id="venue"] {
-    color: #B2B2B2;
+    color: rgb(226, 225, 225);
     text-align: center;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
