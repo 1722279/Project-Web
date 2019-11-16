@@ -26,6 +26,7 @@
     margin-bottom: 0px;
     margin-right: 20px;
     display: inline-block;
+    width: 2%;
 }
 
 /* onclick
@@ -55,7 +56,7 @@ div[class="quicknavblock"] div[class="item"]:hover{
 
 .header div[class="navbarblock"] {
     height: 100px;
-    width: 230px;
+    width: 20%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
@@ -127,6 +128,7 @@ div[id="banner"] img{
 .right {
     float: right;
     height: 100px;
+    width: 90%;
 }
 
 .btnhold {
