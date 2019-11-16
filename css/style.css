@@ -40,11 +40,11 @@
     font-weight: bold;
 }
 
-div[class="dropdown"]:hover a {
+div[class="navbarblock"]:hover a {
     color: rgb(40, 40, 40);
 }
 
-div[class="dropdown"]:hover {
+div[class="navbarblock"]:hover {
     background-color: #DDDDDD;
 }
 
