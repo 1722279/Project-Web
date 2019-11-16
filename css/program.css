@@ -79,6 +79,10 @@ div[id="background"] {
     z-index: 2;
 }
 
+.card span[id="title"]{
+    margin-top: 40%;
+}
+
 #leftarr {
     margin-right: 70px;
 }
