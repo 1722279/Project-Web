@@ -369,9 +369,10 @@ div[id="col3"] .content {
     margin-bottom: 10px;
 }
 
-#footer #socialbtns {
+#footer #socialbtns a{
     padding-top: 50px;
     padding-left: 10px;
+    display: inline-block;
 }
 
 #footer a {
