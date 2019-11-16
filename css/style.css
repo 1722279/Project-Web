@@ -21,11 +21,35 @@
     height: 100px;
 }
 
-.header div[id="burger"] {
-    width: fit-content;
+.header div[class="quicknav"] {
     margin-bottom: 0px;
     margin-right: 20px;
     display: inline-block;
+}
+
+/* onclick
+.header div[class="quicknav"] {
+    width: 270px;
+}
+*/
+
+div[class="quicknavblock"]{
+    display: none;
+    background-color: #DDDDDD;
+    position: absolute;
+    width: 270px;
+    height: 100%;
+    z-index: 11;
+}
+
+div[class="quicknavblock"] div[class="item"]{
+    width: 100%;
+    height: 100px;
+}
+
+div[class="quicknavblock"] div[class="item"]:hover{
+    background-color: rgb(40, 40, 40);
+    color: #DDDDDD;
 }
 
 .header div[class="navbarblock"] {
