@@ -5,6 +5,7 @@
 
 .mainRect[id="program"] {
     height: 540px;
+    width: 100%;
     background-color: #FFFFFF;
 }
 

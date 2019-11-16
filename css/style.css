@@ -89,6 +89,11 @@ div[class="dropdownlist"] a {
 
 div[id="banner"]{
     position: absolute;
+    width: 100%;
+}
+
+div[id="banner"] img{
+    width: 100%;
 }
 
 .header a {
