@@ -4,7 +4,7 @@
     <title>Home - ICT4M 2020</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
-        href="https://fonts.googleapis.com/css?family=Comfortaa|Fredoka+One|Monoton|Open+Sans:300,400,600,700,800|Righteous&display=swap"
+        href="https://fonts.googleapis.com/css?family=Comfortaa|Bungee+Inline|Viga|Fredoka+One|Monoton|Open+Sans:300,400,600,700,800|Righteous&display=swap"
         rel="stylesheet">
 </head>
 
@@ -68,14 +68,16 @@
             <span id="slogan">Technology for the Ummah</span></p>
         <div class="scrollable">
             <div class="tabs">
-                <span>Objective</span>
-                <span>Theme</span>
-                <span>Date</span>
-                <span>Location</span>
-            </div>
+                <span id="objSpan" class="tabSpan">Objective</span>
+                <span id="themeSpan" class="tabSpan">Theme</span>
+                <span id="dateSpan" class="tabSpan">Date</span>
+                <span id="locSpan" class="tabSpan">Location</span>
             <div id="scrollbar">
+                    <img id="blackbar" src="images/tabLine.svg" alt="">
+                    <img id="greybar" src="images/tabGrey.svg" alt="">
             </div>
-            <div class="details">
+            </div>
+            <div id="objTab" class="details">
                 <div class="wrap" id="col">
                     <div id="leftcol">
                         <img src="images/checkmark.svg" alt="">
@@ -90,6 +92,51 @@
                             Kuala Lumpur,
                             Malaysia on 23-25 March 2020.</span>
                         <img src="images/checkmark.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div id="themeTab" class="details">
+                <div class="wrap" id="col">
+                    <div>
+                        <span id="theme">Mental Health and Well Being in the 4th Industrial Revolution</span>
+                    </div>
+                </div>
+
+            </div>
+            <div id="dateTab" class="details">
+                <div class="wrap" id="col">
+                    <div id="">
+                        <span id="confDate">The conference program would run from 23rd of March 2020 to 25th of March
+                            2020.</span>
+                    </div>
+                </div>
+
+            </div>
+            <div id="locTab" class="details">
+                <div class="wrap" id="col">
+                    <div>
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe width="600" height="300" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=Office%20of%20the%20Campus%20Director%2C%20International%20Islamic%20University%20Malaysia%2C%20Kuantan%20Campus&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a></a>
+                            </div>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 300px;
+                                    width: 360px;
+                                }
+
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 300px;
+                                    width: 600px;
+                                }
+                            </style>
+                        </div>
                     </div>
                 </div>
 

@@ -185,13 +185,18 @@ div span {
     display: block;
 }
 
+#info{
+    padding-top: 100px;
+    height: 600px;
+}
+
 #slogan {
     color: #434343;
     text-align: center;
     text-decoration: none;
     font-family: 'Fredoka One', cursive;
     font-size: 32.0pt;
-    padding-top: 150px;
+    padding-top: 15px;
 }
 
 .scrollable {
@@ -200,14 +205,45 @@ div span {
     text-align: center;
 }
 
+.tabs{
+    margin: auto;
+    width: 440px;
+}
+
 .tabs span {
     display: inline-block;
-    text-decoration: none;
+    font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     font-size: 10.0pt;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 100px;
     margin-bottom: 20px;
+}
+
+.tabs span {
+    color: #B2B2B2;
+}
+
+#scrollbar{
+    text-align: left;
+    display: inline-block;
+    width: 400px;
+    height: 5px;
+}
+
+#scrollbar img{
+    height: 5px;
+}
+
+#scrollbar #blackbar{
+    position: absolute;
+    width: 100px;
+    transition: padding-left 1s;
+}
+
+.details{
+    display:none;
+    height: 300px;
+    padding: 50px;
 }
 
 .details div[id="leftcol"] img {
@@ -218,10 +254,9 @@ div span {
 .details div[id="leftcol"] span {
     float: left;
     width: 40%;
-    color: #B2B2B2;
     text-decoration: none;
     text-align: left;
-    font-family: 'OpenSans-Regular', Arial;
+    font-family: 'Open Sans', sans-serif;
     font-size: 11.0pt;
 }
 
@@ -233,11 +268,20 @@ div span {
 .details div[id="rightcol"] span {
     float: right;
     width: 40%;
-    color: #B2B2B2;
     text-decoration: none;
     text-align: left;
-    font-family: 'OpenSans-Regular', Arial;
+    font-family: 'Open Sans', sans-serif;
     font-size: 11.0pt;
+}
+
+#themeTab span{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 22.0pt;
+}
+
+#dateTab span{
+    font-family: 'Viga', sans-serif;
+    font-size: 18.0pt;
 }
 
 .wrap {
