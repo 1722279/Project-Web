@@ -159,6 +159,10 @@ div[id="banner"] img{
     color: #FFFFFF;
 }
 
+.btn span {
+    cursor: pointer;
+}
+
 .scrollPrompt {
     margin-top: 80px;
     display: block;
@@ -293,6 +297,10 @@ div span {
     width: 50%;
 }
 
+.speakerCard{
+    display: inline-block;
+}
+
 .card {
     width: 298px;
     height: 596px;
@@ -323,7 +331,7 @@ div span {
     max-height: 100%;
 }
 
-.card span[id="title"] {
+.card span[id="title"], .bioCard span[id="title"] {
     color: #666666;
     text-align: center;
     text-decoration: none;
@@ -342,7 +350,7 @@ div span {
     font-weight: bold;
 }
 
-.card p {
+.card p, .bioCard p {
     color: rgb(131, 131, 131);
     text-align: center;
     text-decoration: none;
@@ -364,6 +372,44 @@ div span {
     font-size: 10.0pt;
     line-height: 36px;
     margin: auto;
+}
+
+.bioCard {
+    width: 0px;
+    height: 0px;
+    background-color: #FFFFFF;
+    border-width: 1px;
+    border-color: #DDDDDD;
+    display: inline-block;
+    margin: 20 0;
+    vertical-align: top;
+    overflow: hidden;
+    transition:all 1s ease;
+}
+
+.bioCard #title{
+    font-family: 'Bungee', cursive;
+}
+
+.bioCard p{
+    text-align: left;
+    height: auto;
+    width: 580px;
+    margin-bottom: 24px;
+}
+
+.bioCard img{
+    display: inline-block;
+    height: 30px;
+    padding: 5px;
+}
+
+.closeImg{
+    text-align: right;
+}
+
+.closeImg img{
+    cursor: pointer;
 }
 
 .wrap[id="cardDiv"] {
