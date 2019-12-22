@@ -6,7 +6,7 @@ document.getElementById("bioBtn1").addEventListener("click", showBio.bind(this, 
 document.getElementById("bioBtn2").addEventListener("click", showBio.bind(this, 2));
 document.getElementById("bioBtn3").addEventListener("click", showBio.bind(this, 3));
 var closeBtn = document.getElementsByClassName("closeImg");
-for(i=0; i<closeBtn.length; i++){
+for (i = 0; i < closeBtn.length; i++) {
     closeBtn[i].addEventListener("click", resetBio.bind(this, closeBtn[i]))
     closeBtn[i].click();
 }
@@ -21,7 +21,7 @@ function showTab(args) {
     for (i = 0; i < otherTabs.length; i++) {
         otherTabs[i].style.display = "none";
         otherSpans[i].style.color = "#B2B2B2";
-        if(document.getElementById(tab) === otherTabs[i])
+        if (document.getElementById(tab) === otherTabs[i])
             tabNum = i;
     }
     document.getElementById(tab).style.display = "block";
@@ -29,7 +29,7 @@ function showTab(args) {
     document.getElementById("blackbar").style.paddingLeft = tabNum * 100 + "px";
 }
 
-function showBio(i){
+function showBio(i) {
     var node = "bio" + i;
     //document.getElementById(node).style.display = "inline-block";
     document.getElementById(node).style.width = "596px";
@@ -37,7 +37,7 @@ function showBio(i){
     document.getElementById(node).style.borderStyle = "solid";
 }
 
-function resetBio(el){
+function resetBio(el) {
     //el.parentNode.style.display = "none";
     el.parentNode.style.width = "0";
     el.parentNode.style.borderStyle = "";
