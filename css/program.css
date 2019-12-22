@@ -64,20 +64,30 @@ div[id="background"] {
     z-index: -1;
 }
 
-#lcard,
-#rcard {
+#carousel{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.card.lcard,
+.card.rcard {
     width: 303px;
     height: 512px;
     background-color: #F2F2F2;
     z-index: 1;
 }
 
-#mcard {
+.card.mcard {
     height: 563px;
     width: 319px;
     margin-left: -50px;
     margin-right: -50px;
     z-index: 2;
+}
+
+.hidden{
+    display: none;
 }
 
 .card span[id="title"]{

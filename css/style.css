@@ -191,7 +191,7 @@ div span {
 
 #info{
     padding-top: 100px;
-    height: 600px;
+    height: auto;
 }
 
 #slogan {
