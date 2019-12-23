@@ -18,7 +18,7 @@
 }
 
 #topics {
-    height: 520px;
+    height: 1000px;
 }
 
 #desc {
@@ -43,6 +43,8 @@
     display: inline-block;
     vertical-align: top;
     margin: 0px 10px;
+    transition: all ease-in-out 0.1s;
+    cursor: pointer;
 }
 
 .quicknav.collapsed{
@@ -62,10 +64,13 @@
 }
 
 .collapsable {
+    max-height: 0;
     color: #B2B2B2;
     text-align: left;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 13.0pt;
     margin-left: 45px;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
 }
