@@ -2,19 +2,7 @@
 <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg"  style=""  width="10px" height="10px">
 <g transform="translate(0,0)">
 <g clip-path="url(#clip-s-Ellipse_38909)">
-    <ellipse id="pageindiccirc" cx="5.0" cy="5.0" rx="5.0" ry="5.0" style="width: 10px;
-height: 10px;
-padding-top: 1px;
-padding-bottom: 1px;
-padding-left: 1px;
-padding-right: 1px;
-background-color: transparent;
-background-image: none;
-stroke-width: 2px;
-stroke: #CBCBCB;
-box-shadow: none;
-left: 0px; top: 0px;
-fill: rgba(0, 0, 0, 0);">
+    <ellipse id="pageindiccirc" cx="5.0" cy="5.0" rx="5.0" ry="5.0" style="width: 10px; height: 10px; background-color: transparent; background-image: none; stroke-width: 2px; stroke: #CBCBCB; fill: rgba(0, 0, 0, 0);">
     </ellipse>
 </g>
 </g>

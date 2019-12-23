@@ -19,20 +19,37 @@
     margin-bottom: 20px;
 }
 
-.mainRect span[id="venue"] {
+.mainRect span[id="venue"], .mainRect span[id="time"] {
     color: rgb(226, 225, 225);
     text-align: center;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 14.0pt;
-    margin-bottom: 50px;
 }
 
 .mainRect .btn {
+    margin-top: 50px;
     height: 43px;
     width: 160px;
     background-color: #282828;
 }
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 
 div[class="pageindic"] {
     width: 10px;
@@ -40,6 +57,7 @@ div[class="pageindic"] {
     float: left;
     vertical-align: middle;
     margin: 5px;
+    cursor: pointer;
 }
 
 div[id="pageindichold"] {
@@ -48,6 +66,7 @@ div[id="pageindichold"] {
     width: 11px;
     height: 540px;
     float: left;
+    z-index: 10;
 }
 
 div[class="scrollablecards"] {
