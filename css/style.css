@@ -409,6 +409,9 @@ div span {
 }
 
 .closeImg img{
+    display: inline-block;
+    height: 30px;
+    padding: 5px;
     cursor: pointer;
 }
 
@@ -527,4 +530,8 @@ div[id="col3"] .content {
 
 .wrap[id="ftwrap"] {
     width: 1025px
+}
+
+.hidden{
+    display: none;
 }

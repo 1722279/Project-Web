@@ -52,34 +52,39 @@
         <div>
             <p><span class="heading2">Participant(s)</span></p>
         </div>
-        <div class="fieldset" id="participant">
-            <div class="row">
-                <div class="inline" id="name Div">
-                    <label for="name">NAME</label>
-                    <input class="reginput" type="text" name="" id="name" width="405px">
-                </div>
-                <div class="inline" id="desigDiv">
-                    <label for="design">DESIGNATION</label>
-                    <input class="reginput" type="text" name="" id="design" width="405px">
-                </div>
+        <div>
+            <div>
+                <span class="heading3">Participant 1</span>
             </div>
-            <div class="row">
-                <div class="inline" id="orgDiv">
-                    <label for="org">ORGANIZATION</label>
-                    <input class="reginput" type="text" name="" id="org" width="292px">
+            <div class="fieldset" id="participant1">
+                <div class="row">
+                    <div class="inline" id="name Div">
+                        <label for="name">NAME</label>
+                        <input class="reginput" type="text" name="" id="name" width="405px">
+                    </div>
+                    <div class="inline" id="desigDiv">
+                        <label for="design">DESIGNATION</label>
+                        <input class="reginput" type="text" name="" id="design" width="405px">
+                    </div>
                 </div>
-                <div class="inline" id="emailDiv">
-                    <label for="email">EMAIL</label>
-                    <input class="reginput" type="email" name="" id="email" width="292px">
-                </div>
-                <div class="inline" id="contactDiv">
-                    <label for="contact">CONTACT NO</label>
-                    <input class="reginput" type="text" name="" id="contact" width="292px">
+                <div class="row">
+                    <div class="inline" id="orgDiv">
+                        <label for="org">ORGANIZATION</label>
+                        <input class="reginput" type="text" name="" id="org" width="292px">
+                    </div>
+                    <div class="inline" id="emailDiv">
+                        <label for="email">EMAIL</label>
+                        <input class="reginput" type="email" name="" id="email" width="292px">
+                    </div>
+                    <div class="inline" id="contactDiv">
+                        <label for="contact">CONTACT NO</label>
+                        <input class="reginput" type="text" name="" id="contact" width="292px">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="scrollPrompt">
-            <a href=""><img src="images/arrowdown.svg" alt="" /></a>
+            <img onclick="add_fields()" src="images/arrowdown.svg" alt="" />
             <span>Add another</span>
         </div>
     </div>
@@ -119,25 +124,44 @@
                 <div id="headerDiv">
                     <span>PAYABLE AMOUNT</span>
                 </div>
-                <div id="rateBox">
+                <div id="catBox" class="box">
+                    <div id="catBoxHeader">
+                        <span>Category</span>
+                    </div>
+                    <div id="catSelect">
+                        <select name="" id="cat">
+                            <option value="loc">Local</option>
+                            <option value="int">International</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="rateBox" class="box">
                     <div id="rateBoxHeader">
                         <span>Rate</span>
                     </div>
                     <div id="rateSelect">
-                        <select name="" id="rate"></select>
+                        <select name="" id="rate">
+                            <option value="cppresenter">CONFERENCE PAPER PRESENTER</option>
+                            <option value="spresenter">STUDENT PRESENTER</option>
+                            <option value="part">PARTICIPANT</option>
+                        </select>
                     </div>
                 </div>
                 <div class="feeBox" id="regFeeBox">
                     <label for="regFee">Registration</label>
-                    <span id="regFee">$150,00</span>
+                    <span id="regFee"></span>
+                </div>
+                <div class="feeBox hidden" id="earlyBox">
+                    <label for="earlyDisc">Early Bird Discount(20%)</label>
+                    <span id="earlyDisc"></span>
                 </div>
                 <div class="feeBox" id="gstBox">
                     <label for="gst">GST</label>
-                    <span id="gst">$150,00</span>
+                    <span id="gst"></span>
                 </div>
                 <div class="feeBox" id="totalFeeBox">
                     <label for="total">TOTAL</label>
-                    <span id="total">$150,00</span>
+                    <span id="total"></span>
                 </div>
             </div>
         </div>
@@ -192,6 +216,7 @@
                 <button id="ftbtn" class="btn" type="submit">SUBSCRIBE</button>
             </div>
         </div>
+        <script src="js/registration.js"></script>
 </body>
 
 </html>
