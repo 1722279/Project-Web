@@ -34,13 +34,16 @@
 
             </div>
             <div class="navbarblock"><a href="contact.html">CONTACT</a></div>
-            <div class="quicknav">
+            <div id="burgerHeader">
+                <img onclick="openNav()" src="images/burger.svg" alt="" />
+            </div>
+            <div class="quicknav collapsed">
                 <div id="burger">
-                    <a href=""><img src="images/burger.svg" alt="" /></a>
+                    <img onclick="closeNav()" src="images/burger.svg" alt="" />
                 </div>
                 <div class="quicknavblock">
                     <div class="inpagelink">
-                        <div class="item"><a href="#participant">Participants</a></div>
+                        <div class="item"><a href="#heading1">Participants</a></div>
                         <div class="item"><a href="#payment">Payment Credentials</a></div>
                     </div>
                 </div>
@@ -218,5 +221,6 @@
         </div>
         <script src="js/registration.js"></script>
 </body>
+<script src="js/common.js"></script>
 
 </html>

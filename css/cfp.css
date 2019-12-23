@@ -45,6 +45,11 @@
     margin: 0px 10px;
 }
 
+.quicknav.collapsed{
+    margin-top: 0px;
+    margin-right: -270px;
+}
+
 .topictitle {
     width: 400px;
     color: #666666;
