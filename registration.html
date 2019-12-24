@@ -55,7 +55,7 @@
         <div>
             <p><span class="heading2">Participant(s)</span></p>
         </div>
-        <div>
+        <form id="participants" action="javascript:handleSelection();">
             <div>
                 <span class="heading3">Participant 1</span>
             </div>
@@ -63,66 +63,68 @@
                 <div class="row">
                     <div class="inline" id="name Div">
                         <label for="name">NAME</label>
-                        <input class="reginput" type="text" name="" id="name" width="405px">
+                        <input class="reginput" type="text" name="" id="name" width="405px" required>
                     </div>
                     <div class="inline" id="desigDiv">
                         <label for="design">DESIGNATION</label>
-                        <input class="reginput" type="text" name="" id="design" width="405px">
+                        <input class="reginput" type="text" name="" id="design" width="405px" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="inline" id="orgDiv">
                         <label for="org">ORGANIZATION</label>
-                        <input class="reginput" type="text" name="" id="org" width="292px">
+                        <input class="reginput" type="text" name="" id="org" width="292px" required>
                     </div>
                     <div class="inline" id="emailDiv">
                         <label for="email">EMAIL</label>
-                        <input class="reginput" type="email" name="" id="email" width="292px">
+                        <input class="reginput" type="email" name="" id="email" width="292px" required>
                     </div>
                     <div class="inline" id="contactDiv">
                         <label for="contact">CONTACT NO</label>
-                        <input class="reginput" type="text" name="" id="contact" width="292px">
+                        <input class="reginput" type="text" name="" id="contact" width="292px" required>
                     </div>
                 </div>
             </div>
-        </div>
+            <button id="partForm" type="submit" hidden></button>
+        </form>
         <div class="scrollPrompt">
             <img onclick="add_fields()" src="images/arrowdown.svg" alt="" />
             <span>Add another</span>
         </div>
     </div>
 
-    <div class="fieldblock" id="payment">
+    <div class="fieldblock" id="payment" action="javascript:handleSelection();">
         <div>
             <p><span class="heading2">Payment details</span></p>
         </div>
         <div class="wrap" id="paymentWrap">
-            <div class="fieldset" id="credentials">
+            <form class="fieldset" id="credentials">
                 <div class="row">
                     <div id="cardnoDiv">
                         <label for="cardno">CARD NUMBER</label>
-                        <input class="reginput" type="text" name="" id="cardno" width="405px">
+                        <input class="reginput" type="text" name="" id="cardno" width="405px" required>
                     </div>
                     <div id="cardnameDiv">
                         <label for="cardname">NAME ON CARD</label>
-                        <input class="reginput" type="text" name="" id="cardname" width="405px">
+                        <input class="reginput" type="text" name="" id="cardname" width="405px" required>
                     </div>
                     <div id="billaddrDiv">
                         <label for="billaddr">BILLING ADDRESS</label>
-                        <input class="reginput" type="text" name="" id="billaddr" width="405px">
+                        <input class="reginput" type="text" name="" id="billaddr" width="405px" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="inline" id="vailidityDiv">
                         <label for="vailidity">VALID THROUGH</label>
-                        <input class="reginput" type="email" name="" id="vailidity" width="292px">
+                        <input class="reginput" type="email" name="" id="vailidity" width="292px" required>
                     </div>
                     <div class="inline" id="cvvDiv">
                         <label for="cvv">CVV CODE</label>
-                        <input class="reginput" type="text" name="" id="cvv" width="292px">
+                        <input class="reginput" type="text" name="" id="cvv" width="292px" required>
                     </div>
                 </div>
-            </div>
+                <button id="credForm" type="submit" hidden></button>
+            </form>
             <div class="paymentSummary">
                 <div id="headerDiv">
                     <span>PAYABLE AMOUNT</span>
@@ -170,7 +172,15 @@
         </div>
     </div>
     <div class="btnhold">
-        <button class="btn dark" id="payBtn" type="submit">PAY</button>
+        <button id="payBtn" class="btn dark" onclick="submit()">PAY</button>
+    </div>
+    
+    <div id="successModal" class="modal">
+        <div class="modal__article">
+            <h4 class="modal-title">Thank you!</h4>
+            <p class="modal-msg">Payment successful. Kindly check your email for the invoice.</p>
+        </div>
+        <button class="button-close" onclick="closeModal(this)">Close</button>
     </div>
 
 
@@ -217,10 +227,10 @@
                 <span class="content">Subscribe to our newletter for weekly updates</span>
                 <a href="index.html#subbox"><button id="ftbtn" class="btn">SUBSCRIBE</button></a>
             </div>
-            </div>
         </div>
+    </div>
 
-        <script src="js/registration.js"></script>
+    <script src="js/registration.js"></script>
 </body>
 <script src="js/common.js"></script>
 

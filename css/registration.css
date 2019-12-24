@@ -34,6 +34,7 @@
 
 .scrollPrompt img{
     cursor: pointer;
+    transform: rotate(90deg);
 }
 
 
@@ -60,6 +61,7 @@ input {
     font-family: 'Open Sans', sans-serif;
     font-size: 10.0pt;
     border-radius: 5px 5px 5px 5px;
+    padding-left: 5px;
 }
 
 input[width="405px"] {
@@ -83,7 +85,8 @@ input[width="292px"] {
     width: 292px;
 }
 
-div[class="fieldset"] {
+.fieldset {
+    display: inline-block;
     margin: 3% 10%;
 }
 
@@ -186,6 +189,50 @@ div[class="paymentSummary"] div[class="box"] select {
 }
 
 div[class="btnhold"] {
-    text-align: left;
     margin-bottom: 30px;
 }
+
+.modal {
+	width: 24rem;
+    color: #DDDDDD;
+    background-color: #1b1b1b;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+	transform: translate(-50%, -50%);
+    box-shadow: 0 0 1rem rgba(black, 0.1);
+	opacity: 0;
+    text-align: center;
+    transition: opacity 550ms ease-in-out;
+    z-index: -1;
+}
+  
+.modal div{
+    text-align: center;
+    padding: 2.5rem;
+  }
+    
+.modal-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+
+.button-close:hover {
+    color: #fff;
+    background-color: HSLA(0, 0%, 100%, .2);
+  }
+  
+.button-close {
+    background-color: #33465E;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 15px 35px;
+    border: 0px solid #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    transition: all 250ms ease-in-out;
+  }

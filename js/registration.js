@@ -62,7 +62,7 @@ function handleSelection() {
   if (curDate < earlyDate) {
     var earlyDisc = regPrice * 0.20;
     regPrice = regPrice * 0.80;
-    document.getElementById("earlyDisc").classList.remove("hidden");
+    document.getElementById("earlyBox").classList.remove("hidden");
   }
   else if (!document.getElementById("earlyDisc").classList.contains("hidden"))
     document.getElementById("earlyDisc").classList.add("hidden");
@@ -74,4 +74,33 @@ function handleSelection() {
   document.getElementById("earlyDisc").textContent = earlyDisc + 'RM';
   document.getElementById("gst").textContent = gst + 'RM';;
   document.getElementById("total").textContent = total + 'RM';;
+}
+
+
+function submit(){
+  var inputs = document.getElementsByTagName("input");
+  var invalid = false;
+  for(var i = 0; i<inputs.length; i++){
+    if(inputs[i].value === '' && inputs[i].hasAttribute('required')){
+      inputs[i].style.borderColor = "#ff0000";
+      invalid = true;
+  }
+    else {
+      inputs[i].style.borderColor = "#ddddd";
+      console.log("reset");
+    }
+}
+  if(invalid)
+    alert("One or more required fields are empty\/invalid!");
+  else{
+    document.getElementById("successModal").style.opacity = "1";
+    document.getElementById("successModal").style.zIndex = "2";
+  }
+}
+
+
+function closeModal(el){
+  handleSelection();
+  el.parentNode.style.opacity = "0";
+  el.parentNode.style.zIndex = "-1";
 }
