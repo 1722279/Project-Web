@@ -250,6 +250,7 @@ div span {
     font-size: 10.0pt;
     width: 100px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .tabs span {
