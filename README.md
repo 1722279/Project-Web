@@ -22,13 +22,13 @@ Each member designed certain number of pages depending upon their ability and sk
 
 # Future enhancements
 
-|Name  |Contributions  |Future enhancements	|
+|Name  |Part 1,2 - Contributions  |Part 3 - Contributions	|
 |--|--|--|
-|Yasin Mohammed  | <ul><li>**Pages:** Homepage, Programs page, Call of papers page</li><li>**Web elements:** Logo, Navbar, Footer, Button class, Cards</li></ul>  | <ul><li>Implement smooth-scrolling menu bar in homepage</li><li>Add bio as collapsible div</li><li>Add collapsible functionality to paper topics</li><li>Make the cards for event scrollable in Programs page</li></ul>	|
-|Liu Yufei|<ul><li>**Pages:** Submission guidelines and Important dates</li><li>**Web elements:** Images</li></ul>  | <ul><li>Add indicative icons to submission guidelines</li></ul>	|
-|Abdella Mame|<ul><li>**Pages:** Registration and Contact</li></ul>  | <ul><li>Add algorithm for fee calculation in payments page</li></ul>	|
-|MaYongQiang|<ul><li>**Pages:** Programs</li></ul>  | <ul><li>Add paper topics in a collapsible div</li></ul>	|
-|MaLi|<ul><li>**Pages:** Fees</li></ul>  |	|
+|Yasin Mohammed | <ul><li>**Pages:** Homepage, Programs page, Call of papers page</li><li>**Web elements:** Logo, Navbar, Footer, Button class, Cards</li></ul> |**Dynamic elements:**  <ul><li>Implemented smooth-scrolling menu bar in homepage</li><li>Added bio as collapsible div</li><li>Added collapsible functionality to paper topics</li><li>Made the cards for event scrollable in Programs page</li><li>Added slideshow to Programs page</li><li>Assisted with Registration page scripting</li><li>Add indicative icons to submission guidelines</li></ul>**External:** <ul><li>Updated README</li></ul> |
+|Liu Yufei|<ul><li>**Pages:** Submission guidelines and Important dates</li><li>**Web elements:** Images</li></ul> | **Dynamic elements:** <ul><li>Add indicative icons to submission guidelines</li><li>Implemented calculation algorithm for Registration page</li><li>Implemented functionality to 'Add participant' button</li></ul> |
+|Abdella Mame|<ul><li>**Pages:** Registration and Contact</li></ul> | **Dynamic elements:** <ul><li>Added paper topics in a collapsible div</li><li>Assisted with registration page scripting</li></ul> |
+|MaYongQiang|<ul><li>**Pages:** Programs</li></ul> | <ul><li>Presentation</li></ul> |
+|MaLi|<ul><li>**Pages:** Fees</li></ul> |<ul><li>Presentation</li></ul>|
 
 
 # Third party resources
@@ -39,10 +39,11 @@ Each member designed certain number of pages depending upon their ability and sk
 - Representative images downloaded from pxhere.com
 - Logo was designed using the freelogodesign.com website
 - The fonts are fetched from fonts.google.com
+- SVG icons used were downloaded from freeicons.io
 
 |Web elements| Team member | Modifications |
 |--|--|--|
-|Graphics  | All members  | <ul><li>All SVG images were resized and rotated accordingly to fit the purpose</li><li>Logo was resized accordingly to fit the navbar</li><li>Raster images were cropped to fit the aspect ratio</li></ul>|
+|Graphics  | All members  | <ul><li>All SVG images were resized and rotated accordingly to fit the purpose</li><li>Logo was resized accordingly to fit the navbar</li><li>Raster images were cropped to fit the aspect ratio</li><li>Color of SVG icons were modified to fit the design</li></ul>|
 |Fonts| All members  | No modification |
 
 
@@ -62,3 +63,5 @@ USIM dapat naib canselor baru. (2019). Speaker 2 image. Retrieved 16 November 20
 Department of Electronics and Electrical Communications Engineering. (2019). Speaker 3 image. Retrieved 16 November 2019, from http://eece.cu.edu.eg/content/top-it-expert-dr-tengku-mohd-azzman-shariffadeen-malaysia-presents-talk-eece-dept-20-septemb
 
 Representative images. Retrieved 16 November 2019, from https://pxhere.com
+
+Free icons - Free vector icons - Free SVG, PSD, PNG, EPS, Ai & Icon Font. (2019). Retrieved 24 December 2019, from https://freeicons.io/
