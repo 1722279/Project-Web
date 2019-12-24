@@ -20,8 +20,6 @@
 
 Each member designed certain number of pages depending upon their ability and skill. The distribution of work was done according to a member's ability to ensure that all parts required of the website are completed on time and no member bottlenecks the pace of the development.
 
-# Future enhancements
-
 |Name  |Part 1,2 - Contributions  |Part 3 - Contributions	|
 |--|--|--|
 |Yasin Mohammed | <ul><li>**Pages:** Homepage, Programs page, Call of papers page</li><li>**Web elements:** Logo, Navbar, Footer, Button class, Cards</li></ul> |**Dynamic elements:**  <ul><li>Implemented smooth-scrolling menu bar in homepage</li><li>Added bio as collapsible div</li><li>Added collapsible functionality to paper topics</li><li>Made the cards for event scrollable in Programs page</li><li>Added slideshow to Programs page</li><li>Assisted with Registration page scripting</li><li>Add indicative icons to submission guidelines</li></ul>**External:** <ul><li>Updated README</li></ul> |
