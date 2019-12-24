@@ -40,6 +40,12 @@ div[class="guidelineblock"] {
 
 div[class="guidelineblock"] img {
     margin: 20px 0px;
+    height: 54px;
+}
+
+div[class="centered"] img {
+    margin: 20px 0px;
+    height: 80px;
 }
 
 .paragraph {
