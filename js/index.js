@@ -31,17 +31,25 @@ function showTab(args) {
 
 function showBio(i) {
     var node = "bio" + i;
-    //document.getElementById(node).style.display = "inline-block";
     document.getElementById(node).style.width = "596px";
     document.getElementById(node).style.height = "auto";
     document.getElementById(node).style.borderStyle = "solid";
 }
 
 function resetBio(el) {
-    //el.parentNode.style.display = "none";
     el.parentNode.style.width = "0";
     el.parentNode.style.borderStyle = "";
     el.parentNode.style.height = "0";
+}
+
+function subscribe(){
+    var email = document.getElementById("email");
+    if(!email.value == ''){
+        email.style.borderColor = "#dddddd";
+        alert("Thank you for subscribing!");
+    }
+    else
+        email.style.borderColor = "#ff0000";
 }
 
 document.getElementById("objSpan").click();
